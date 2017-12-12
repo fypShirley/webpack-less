@@ -1,3 +1,6 @@
+本例子接口都是本地的接口，
+以下都是些笔记：
+
 bable-loader  这个包允许使用 Babel 和 webpack 转换JavaScript文件。
 
 在您的webpack配置对象中，您需要将 babel-loader 添加到模块列表，如下所示：
