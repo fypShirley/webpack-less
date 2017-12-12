@@ -1,0 +1,57 @@
+/*搜索*/
+.selectFrame {
+  width: 670px;
+  height: 49px;
+  margin: 0 auto;
+}
+.selectFrame .btn {
+  width: 133px;
+  border-radius: 0;
+}
+.selectFrame .selectOption {
+  width: 110px;
+  height: 100%;
+}
+.selectFrame .selectInput {
+  width: 425px;
+  height: 100%;
+  padding-left: 20px;
+}
+.selectGroup {
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid #E4E4E4;
+  border-right: 0;
+  height: 49px;
+}
+.selectGroup:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.selectGroup input {
+  color: #666;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+.selectGroup .selectItem {
+  float: left;
+  background: #fff;
+}
+.selectGroup .select {
+  color: #666;
+  font-size: 16px;
+  border: 0;
+  height: 100%;
+  padding: 0 20px;
+}
+.selectBtn {
+  float: left;
+}
+.selectBtn > .btn {
+  font-size: 16px;
+  box-sizing: border-box;
+  height: 49px;
+}

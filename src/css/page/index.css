@@ -1,0 +1,253 @@
+/*common*/
+body,
+ul,
+ol,
+li,
+th,
+td,
+input,
+button,
+textarea,
+hr {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+input,
+textarea {
+  outline-style: none;
+}
+body {
+  font-size: 12px;
+  background-color: #F3F3F6;
+}
+a {
+  text-decoration: none;
+  color: #2ABDE4;
+}
+a:hover {
+  text-decoration: none;
+  color: #2ABDE4;
+}
+.gray {
+  color: #999;
+}
+.contain {
+  width: 960px;
+  margin: 0 auto;
+}
+.nav_title {
+  margin: 15px 0 10px 0;
+}
+.nav_title:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.nav_title li {
+  float: left;
+  padding: 0 5px;
+}
+.theme-color {
+  color: #2ABDE4;
+}
+.common_border {
+  border: 1px solid #E4E4E4;
+  margin-bottom: 20px;
+}
+.common_border .common_header {
+  font-size: 16px;
+  color: #666666;
+  padding: 14px;
+  background-color: #F9F9FC;
+  border-bottom: 1px solid #E4E4E4;
+}
+.common_body {
+  padding: 14px;
+  background-color: #fff;
+  font-size: 14px;
+  overflow: hidden;
+}
+.imgPer {
+  width: 72px;
+  height: 100px;
+  float: left;
+  margin-right: 30px;
+}
+.imgPer > img {
+  width: 100%;
+  height: 100%;
+}
+.infoPost {
+  font-size: 14px;
+}
+.detailPer {
+  float: left;
+}
+.detailPer > div:not(:last-child) {
+  margin-bottom: 14px;
+}
+.statusBtn {
+  padding: 5px 10px;
+  color: #2ABDE4;
+  background: #EBF9FB;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+/*loading*/
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  background: #F3F3F6;
+  padding: 10px;
+}
+.load-container {
+  height: 40px;
+  margin: 0 auto;
+  width: 30px;
+}
+.load-container .loader {
+  position: relative;
+  font-size: 11px;
+  margin: 5px 10px;
+  width: 30px;
+  height: 30px;
+  box-shadow: inset 0 0 0 2.5px #5bc0de;
+  border-radius: 50%;
+  float: left;
+}
+.load-container .loader .left-transparent {
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  background-color: #F3F3F6;
+  transform-origin: 100% 50%;
+  animation: spin 2s infinite ease 1.5s;
+}
+.load-container .loader .right-transparent {
+  position: absolute;
+  left: 15px;
+  width: 15px;
+  height: 30px;
+  background-color: #F3F3F6;
+  transform-origin: 0% 50%;
+  animation: spin 2s infinite ease;
+}
+/*��ʾ������ʽ*/
+.top {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  height: 40px;
+  width: 220px;
+  background: #eeeeee;
+  border-radius: 2px;
+}
+.myfa {
+  width: 40px;
+  height: 40px;
+  padding: 13px;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+}
+.primary {
+  background-color: #337ab7;
+}
+.success {
+  background-color: #5cb85c;
+}
+.info {
+  background-color: #5bc0de;
+}
+.warning {
+  background-color: #f0ad4e;
+}
+.danger {
+  background-color: #d9534f;
+}
+/*搜索*/
+.selectFrame {
+  width: 670px;
+  height: 49px;
+  margin: 0 auto;
+}
+.selectFrame .btn {
+  width: 133px;
+  border-radius: 0;
+}
+.selectFrame .selectOption {
+  width: 110px;
+  height: 100%;
+}
+.selectFrame .selectInput {
+  width: 425px;
+  height: 100%;
+  padding-left: 20px;
+}
+.selectGroup {
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid #E4E4E4;
+  border-right: 0;
+  height: 49px;
+}
+.selectGroup:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.selectGroup input {
+  color: #666;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+.selectGroup .selectItem {
+  float: left;
+  background: #fff;
+}
+.selectGroup .select {
+  color: #666;
+  font-size: 16px;
+  border: 0;
+  height: 100%;
+  padding: 0 20px;
+}
+.selectBtn {
+  float: left;
+}
+.selectBtn > .btn {
+  font-size: 16px;
+  box-sizing: border-box;
+  height: 49px;
+}
+/*index*/
+body {
+  background: #fff;
+}
+.contain {
+  margin-top: 200px;
+}
+.logoImg {
+  width: 250px;
+  height: 78px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.logoImg img {
+  width: 100%;
+  height: 100%;
+}

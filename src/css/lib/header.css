@@ -1,0 +1,25 @@
+.head {
+  height: 50px;
+  line-height: 50px;
+  background-color: #fff;
+  padding: 0 13px;
+  border-bottom: 1px solid #E4E4E4;
+}
+.site {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.site:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.site-left {
+  float: left;
+}
+.site-right {
+  float: right;
+}
+.footerGray {
+  color: #ccc;
+}
